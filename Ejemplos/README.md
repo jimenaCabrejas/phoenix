@@ -6,6 +6,7 @@
    * [Control Acceso](#control-acceso)
    * [Wiki](#wiki)
    * [Licencia](#licencia)
+   * [SensorTemp](#sensortemp)
 
 ## Control Acceso
 
@@ -14,6 +15,12 @@
 Una de las tarjetas, equipada con el ultrasonidos, actua de servidor y crea la red WiFi. La tarjeta cliente se conecta a esa red y hace peticiones periódicas al servidor para que le envíe el dato de la distancia. Si detecta una intrusión (un objeto demasiado cerca) la tarjeta cliente se ilumina de rojo.
 
 ![Control Acceso Demo](https://github.com/jimenaCabrejas/phoenix/blob/master/Ejemplos/ControlAcceso/ControlAccesoDemo.gif "Demo")
+
+## SensorTemp
+
+**Material**: una tarjeta Phoenix y un sensor de temperatura (LM35)
+
+Muestra periódicamente la temperatura medida por el LM35 a través del Serial
 
 ## Wiki
  - [Información de interés](https://github.com/bytekengineering/phoenix/wiki)
